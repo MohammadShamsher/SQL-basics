@@ -104,4 +104,4 @@ Create table if not exists employee_with_constraints_tmp
 --- Exception will be thrown -> Check constraint 'salary_check' is violated.
 insert into employee_with_constraints_tmp values(1,'Shashank',500,'2021-09-15');
 
-hello
+
