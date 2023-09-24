@@ -2,7 +2,8 @@ DDL
 1. CREATE
 2. ALTER
 3. DROP
-
+4. DELETE
+5. UPDATE
 
 
 create database sql_practice;
