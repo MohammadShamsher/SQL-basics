@@ -73,8 +73,14 @@ Truncate table persons;
 Drop table persons;
 
 
+-- DELETE
 --- how to delete specific records from table using delete command
 delete from employee where hiring_date = '2021-08-10';
 
+
+--UPDATE
 --- Update the salary of employees who joined the company on 2021-08-10 to 80000
 update employee SET salary = 80000 where hiring_date = '2021-08-10';
+
+--- How to perform multi updates
+update employee set age=20,salary=25000 where hiring_date = '2021-08-10';
